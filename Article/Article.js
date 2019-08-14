@@ -142,7 +142,7 @@ function articleCreator(title, date, firstParagraph, secondParagraph, thirdParag
   const paragraph1 = document.createElement('p');
   const paragraph2 = document.createElement('p');
   const paragraph3 = document.createElement('p');
-  const button = document.createElement('button');
+  const button = document.createElement('span');
 
   article.appendChild(articleTitle);
   article.appendChild(articleDate);
